@@ -1,15 +1,16 @@
 
 
 # 1a
-first_number = input("Skriv in ett heltal: ")
-first_int = int(first_number)
-print(first_int)
+first_number = int(input("Skriv in ett heltal: "))
+#first_int = int(first_number)
+#print(first_int)
+print(first_number)
 
 # 1b
 second_number = input("Skriv in ett till heltal: ")
 second_int = int(second_number)
 print(second_int)
-sum = first_int + second_int
+sum = first_number + second_int
 print(sum)
 
 # 2a
