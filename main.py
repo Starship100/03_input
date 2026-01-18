@@ -20,7 +20,7 @@ slut_pris = int(pris_jacka * rea_procent / 100)
 #print("Du behöver betala: " + str(sum) + "kr.")
 print("Du behöver betala: " + str(slut_pris) + "kr.")
 
-# 2b
+#  2b
 skriv_procent = input("Skriv in procentsats: ")
 skriv_procent_int = float(skriv_procent)
 pris_jacka = 2000
