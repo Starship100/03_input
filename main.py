@@ -2,8 +2,6 @@
 
 # 1a
 first_number = int(input("Skriv in ett heltal: "))
-#first_int = int(first_number)
-#print(first_int)
 print(first_number)
 
 # 1b
@@ -27,5 +25,5 @@ skriv_procent = int(input("Skriv in procentsats: "))
 pris_jacka = 2000
 # procent_av_pris = float(pris_jacka * skriv_procent_int / 100)
 procent_av_pris = pris_jacka * skriv_procent / 100
-slut_pris = pris_jacka - procent_av_pris
+slut_pris = int(pris_jacka - procent_av_pris)
 print("Du behöver betala: " + str(slut_pris) + "kr.")
