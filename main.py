@@ -29,3 +29,4 @@ pris_jacka = 2000
 procent_av_pris = pris_jacka * skriv_procent / 100
 slut_pris = pris_jacka - procent_av_pris
 print("Du behöver betala: " + str(slut_pris) + "kr.")
+#Slut
